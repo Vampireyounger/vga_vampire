@@ -1,0 +1,220 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 18876
+License: Customer
+
+Current time: 	Wed Nov 22 20:33:37 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2520x1680
+Screen resolution (DPI): 200
+Available screens: 1
+Available disk space: 18 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Vivodo/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Vivodo/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	VAMPIRE
+User home directory: C:/Users/VAMPIRE
+User working directory: C:/Users/VAMPIRE/Desktop/Project/project_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Vivodo/Vivado
+HDI_APPROOT: C:/Vivodo/Vivado/2019.1
+RDI_DATADIR: C:/Vivodo/Vivado/2019.1/data
+RDI_BINDIR: C:/Vivodo/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/VAMPIRE/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/VAMPIRE/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/VAMPIRE/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Vivodo/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/VAMPIRE/Desktop/Project/project_1/vivado.log
+Vivado journal file location: 	C:/Users/VAMPIRE/Desktop/Project/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/VAMPIRE/Desktop/Project/project_1/.Xil/Vivado-18876-LAPTOP-QNUJ030I
+
+Xilinx Environment Variables
+----------------------------
+EMULATOR_SDK_ROOT: C:\Program Files\MobileAppEngine\EmulatorSdk
+XILINX: C:/Vivodo/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Vivodo/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Vivodo/Vivado/2019.1
+XILINX_SDK: C:/Vivodo/SDK/2019.1
+XILINX_VIVADO: C:/Vivodo/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Vivodo/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 701 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 100 MB (+101860kb) [00:00:06]
+// [Engine Memory]: 604 MB (+482126kb) [00:00:06]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\VAMPIRE\Desktop\Project\project_1\project_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 726 MB. GUI used memory: 64 MB. Current time: 11/22/23, 8:33:39 PM CST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 772 MB (+144249kb) [00:00:12]
+// [GUI Memory]: 120 MB (+15745kb) [00:00:13]
+// [Engine Memory]: 811 MB (+738kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  4280 ms.
+// Tcl Message: open_project C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivodo/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 859.227 ; gain = 219.074 
+// Project name: project_1; location: C:/Users/VAMPIRE/Desktop/Project/project_1; part: xc7a35tcpg236-1
+// [Engine Memory]: 936 MB (+88018kb) [00:00:17]
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,006 MB (+24734kb) [00:00:19]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// [GUI Memory]: 133 MB (+7390kb) [00:00:21]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// Elapsed time: 75 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), inst : clk_wiz_0_clk_wiz (snake.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Launch External Editor: 'C:/Users/VAMPIRE/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.srcs/sources_1/new/snake.v" -l23'
+// WARNING: HEventQueue.dispatchEvent() is taking  1492 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,046 MB. GUI used memory: 71 MB. Current time: 11/22/23, 8:35:04 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 64 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci)]", 3, false); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci)]", 3); // B (F, cl)
+// A (cl): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cl)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd)]", 4, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Launch External Editor: 'C:/Users/VAMPIRE/AppData/Local/Programs/Microsoft VS Code/Code.exe "c:/Users/VAMPIRE/Desktop/Project/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_2/synth/blk_mem_gen_2.vhd" -l68'
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd)]", 4, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd)]", 4, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci), blk_mem_gen_2(blk_mem_gen_2_arch) (blk_mem_gen_2.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u4 : blk_mem_gen_3 (blk_mem_gen_3.xci)]", 6); // B (F, cl)
+// A (cl): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cl)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci)]", 3, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci)]", 3, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Symbol", 0); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bg (E, r)
+// Elapsed time: 25 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Symbol", 0); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u3 : blk_mem_gen_2 (blk_mem_gen_2.xci)]", 3); // B (F, cl)
+// Elapsed time: 40 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u4 : blk_mem_gen_3 (blk_mem_gen_3.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), u4 : blk_mem_gen_3 (blk_mem_gen_3.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+// Elapsed time: 94 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Launch External Editor: 'C:/Users/VAMPIRE/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.srcs/sources_1/new/snake.v" -l6'
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_wiz_0 (clk_wiz_0.xci)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (cl):  Re-customize IP : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 84 MB. Current time: 11/22/23, 8:41:19 PM CST
+// [GUI Memory]: 143 MB (+3938kb) [00:07:52]
+// [Engine Memory]: 1,104 MB (+49723kb) [00:07:52]
+// r (cl): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (cl)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 1); // cT (E, r)
+// [GUI Memory]: 162 MB (+12526kb) [00:10:08]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1087 ms. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,107 MB. GUI used memory: 95 MB. Current time: 11/22/23, 9:11:22 PM CST

@@ -1,0 +1,149 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 3596
+License: Customer
+
+Current time: 	Thu Nov 16 14:28:24 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2520x1680
+Screen resolution (DPI): 200
+Available screens: 1
+Available disk space: 20 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=24
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Vivodo/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Vivodo/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	VAMPIRE
+User home directory: C:/Users/VAMPIRE
+User working directory: C:/Users/VAMPIRE/Desktop/Project/project_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Vivodo/Vivado
+HDI_APPROOT: C:/Vivodo/Vivado/2019.1
+RDI_DATADIR: C:/Vivodo/Vivado/2019.1/data
+RDI_BINDIR: C:/Vivodo/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/VAMPIRE/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/VAMPIRE/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/VAMPIRE/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Vivodo/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/VAMPIRE/Desktop/Project/project_1/vivado.log
+Vivado journal file location: 	C:/Users/VAMPIRE/Desktop/Project/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/VAMPIRE/Desktop/Project/project_1/.Xil/Vivado-3596-LAPTOP-QNUJ030I
+
+Xilinx Environment Variables
+----------------------------
+EMULATOR_SDK_ROOT: C:\Program Files\MobileAppEngine\EmulatorSdk
+XILINX: C:/Vivodo/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Vivodo/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Vivodo/Vivado/2019.1
+XILINX_SDK: C:/Vivodo/SDK/2019.1
+XILINX_VIVADO: C:/Vivodo/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Vivodo/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 730 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 114 MB (+116642kb) [00:00:05]
+// [Engine Memory]: 607 MB (+484919kb) [00:00:05]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\VAMPIRE\Desktop\Project\project_1\project_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 750 MB (+118354kb) [00:00:10]
+// [GUI Memory]: 128 MB (+9292kb) [00:00:11]
+// [Engine Memory]: 788 MB (+428kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  2487 ms.
+// Tcl Message: open_project C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivodo/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 805 MB. GUI used memory: 70 MB. Current time: 11/16/23, 2:28:28 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 835.906 ; gain = 186.652 
+// Project name: project_1; location: C:/Users/VAMPIRE/Desktop/Project/project_1; part: xc7a35tcpg236-1
+// [Engine Memory]: 966 MB (+144863kb) [00:00:13]
+dismissDialog("Open Project"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 70 MB. Current time: 11/16/23, 2:58:29 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2818755 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2818949 ms. Increasing delay to 8456847 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 70 MB. Current time: 11/16/23, 4:02:08 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2311692 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 65 MB. Current time: 11/16/23, 4:41:35 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3413401 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 65 MB. Current time: 11/16/23, 5:39:59 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1762039 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1762194 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 64 MB. Current time: 11/16/23, 6:33:25 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 66 MB. Current time: 11/16/23, 7:03:26 PM CST
+// PAPropertyPanels.initPanels (snake.v) elapsed time: 0.2s
+// Elapsed time: 17184 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v), inst : clk_wiz_0_clk_wiz (snake.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Launch External Editor: 'C:/Users/VAMPIRE/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.srcs/sources_1/new/snake.v" -l23'
+// WARNING: HEventQueue.dispatchEvent() is taking  1706 ms.
+// Elapsed time: 506 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, snake (snake.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Launch External Editor: 'C:/Users/VAMPIRE/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/VAMPIRE/Desktop/Project/project_1/project_1.srcs/sources_1/new/snake.v" -l23'
